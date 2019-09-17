@@ -1,0 +1,13 @@
+Base Properties
+ENGINE	6197cd9a-9c91-4527-b1ce-42192497031b
+ENGINE_ALIAS	Telehealth_Mock
+ENGINE_TYPE	prerna.engine.impl.rdbms.RDBMSNativeEngine
+RDBMS_INSIGHTS	db/@ENGINE@/insights_database
+OWL	db/@ENGINE@/Telehealth_Mock_OWL.OWL
+PIXEL_UPDATE	true
+RELOAD_INSIGHTS	false
+RDBMS_TYPE	H2_DB
+DRIVER	org.h2.Driver
+USERNAME	sa
+PASSWORD	
+CONNECTION_URL	jdbc:h2:nio:@BaseFolder@/db/@ENGINE@/database;query_timeout=180000;early_filter=true;query_cache_size=24;cache_size=32768
